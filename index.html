@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Sketch Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎨 AI Sketch Generator</h1>
+    <p>Ubah foto jadi sketsa dalam hitungan detik</p>
+
+    <div class="upload-box">
+        <input type="file" id="imageInput">
+        <button onclick="convert()">Convert Now</button>
+    </div>
+
+    <div class="loading" id="loading">
+        Processing...
+    </div>
+
+    <img id="output"/>
+
+    <a id="downloadBtn" download="sketch.png">
+        <button class="download">Download</button>
+    </a>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
